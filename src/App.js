@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Header";
-import HomePage from "./HomePage";
-import AboutPage from "./AboutPage";
-import ContactPage from "./ContactPage";
+import HomePage from "./Components/HomePage";
+import AboutPage from "./Components/AboutPage";
+import ContactPage from "./Components/ContactPage";
 import Footer from "./Footer";
 
 function App() {
